@@ -1,4 +1,7 @@
-﻿using UnityEditor;
+﻿
+#if UNITY_EDITOR
+
+using UnityEditor;
 using UnityEngine;
 
 namespace Exerussus._1Attributes
@@ -19,3 +22,5 @@ namespace Exerussus._1Attributes
         }
     }
 }
+
+#endif
